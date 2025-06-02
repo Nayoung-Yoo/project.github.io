@@ -198,6 +198,9 @@ footer {
     #content {
         width: 70%;
     }
+    footer {
+        width: 100%;
+    }
 }
 
 .c1 {width:8.33%;}
