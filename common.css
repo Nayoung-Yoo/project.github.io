@@ -93,6 +93,10 @@ nav #menu #now {
     text-decoration: none;
     color: #cccccc;
 }
+#sub a:visited {
+    text-decoration: none;
+    color: #cccccc;
+}
 #sub a:hover {
     color: #bfa96f;
     border-left: 3px solid #bfa96f;
