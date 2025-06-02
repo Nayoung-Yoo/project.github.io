@@ -161,7 +161,7 @@ main {
 }
 footer {
     background-color: #a09f9f;
-    height: 250px;
+    height: auto
     position:static;
     display: block;
     font-family: "나늠고딕";
