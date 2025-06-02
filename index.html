@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="common.css">
+    <style>
+        main {
+            background-image:url("img/background.png");
+            background-size:100%;
+            background-repeat: no-repeat;
+            z-index: 1;
+        }
+        @media only screen and (max-width: 1000px) {
+            main {
+                background-size: cover;
+            }
+            #intro {
+                width: 100%;
+            }
+        }
+        @font-face {
+            font-family: '평창체';
+            src: url('font/PyeongChang-Bold.ttf');
+        }
+        main #intro {
+            background: linear-gradient(to top, rgba(0, 0, 1) 90%, rgba(0, 0, 0, 0) 100%);
+            padding-left: 30px;
+            height: 65vh;
+        }
+        #intro h5 {
+            padding-top:120px;
+            color:white;
+            font-family: "평창체";
+            font-size: 170%;
+        }
+        #block {
+            clear:both;
+            height: 550px;
+        }
+        nav #menu {
+            background: linear-gradient(to bottom, rgba(52, 46, 88, 1) 40%, rgba(52, 46, 88, 0) 100%);
+        }
+        .box {
+            position: relative;
+            float: left;
+            display: block;
+            color: white;
+            font-family: "나눔고딕";
+        }
+        .box ul {
+            position: relative;
+            list-style-type: none;
+            line-height: 170%;
+        }
+        .box li {
+            font-size: 80%;
+            border-bottom: dashed 1px gray;
+        }
+        .image {
+            position: relative;
+            float: left;
+            margin-left: 120px;
+            margin-top: -40px;
+        }
+        #page {
+            background-color: #a09f9f;
+        }
+    </style>
+</head>
+<body>
+    <div id="page">
+        <header>
+            <div id="logo"><a href="index.html"><img src="img/logo.png" width="300px"></a></div>
+            <nav>
+                <div id="menu">
+                    <ul>
+                        <li><a href="about1.html">재즈란?</a></li>
+                        <li><a href="genre1.html">장르별 소개</a></li>
+                        <li><a href="artist1.html">유명 아티스트</a></li>
+                        <li><a href="now.html">재즈의 현재</a></li>
+                        <li><a href="myjazz1.html">시즌 재즈</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div id="block"></div>
+            <div id="intro">
+                <h5>재즈 NEWS</h5>
+                <div class="box c7">
+                    <ul>
+                        <li>브루벡 리빙 레거시 상 수상자 카스퍼 리트커크, The Happy Worrier 발매</li>
+                        <li>브래드 멜다우, 엘리엇 스미스에서 영감을 받은 새 앨범 'Ride into the Sun' 발매 예정</li>
+                        <li>앤디 셰퍼드, 헤지라, 엘레인 델마 등 2025년 스와니지 헤드라이너로 등장</li>
+                        <li>2025년 5월 27일, 브라이언 켈록 사망</li>
+                    </ul>
+                </div>
+                <img class="image c2" src="img/news.png">
+                <div class="clear"></div>
+                <h5>콘서트 & 페스티벌</h5>
+                <div class="box c7">
+                    <ul>
+                        <li>금요일N재즈 〈킹스턴루디스카 ＆ 나희경〉 - 화성 (2025.06.13 ~ 2025.06.13)</li>
+                        <li>닥터 하루코 나라 내한공연 (2025.06.14)</li>
+                        <li>루시드폴, 정마리, 부지현 on Sync Next 25 (2025.07.04 ~2025.07.06)</li>
+                        <li>루카 스트리칸뇰리 첫 내한공연(2025.07.04)</li>
+                    </ul>
+                </div>
+                <img class="image c2" src="img/concert.gif">
+            </div>
+            <div class="clear"></div>
+        </main>
+        <div class="clear"></div>
+        <footer>
+            <img id="f_logo" class="c4" src="img/logo.png">
+            <div id="f_text">
+                <ul>
+                    <li>© 2025 My Jazz Site. All rights reserved.</li>
+                    <li>출처: 위키피디아, pngtree</li>
+                </ul>
+            </div>
+            <div id="site">
+                <p>사이트맵</p>
+                <ul class="sitemap">
+                    <li><a href="index.html">홈</a></li>
+                    <li><a href="about1.html">재즈란?</a></li>
+                    <li><a href="genre1.html">장르별 소개</a></li>
+                    <li><a href="artist1.html">유명 아티스트</a></li>
+                </ul>
+
+                <ul class="sitemap">
+                    <li><a href="now.html">재즈의 현재</a></li>
+                    <li><a href="myjazz1.html">나의 재즈</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
